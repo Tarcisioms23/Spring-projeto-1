@@ -13,7 +13,14 @@
  - https://api-projeto-1.herokuapp.com/swagger-ui.html
 
 ## 4 Tecnologias:
- - Java - REST - spring boot - postgree - Heroku - Swagger
+ - Java 
+ - Rest 
+ - Spring boot 
+ - Postgree 
+ - Heroku 
+ - Swagger
+ - Git/GitHub
+ - Postman
 
 ## 5 Referências:
   1. [git hub](https://docs.github.com/pt/enterprise-server@2.20/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
