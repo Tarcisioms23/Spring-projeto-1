@@ -1,6 +1,6 @@
 # Projeto_1 - Auto Tarcisio M Silva ☕
  * Nesse projeto eu utilizo o spring boot e o banco postgree para criar APIs, Rest
- 
+ * Projeto contem um CRUD para cadastrar deletar, buscar por id e listar Produtos
  * Branch utilizada foi a master
 
 ## 1 Referencia de estudo
