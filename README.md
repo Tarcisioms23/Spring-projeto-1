@@ -21,6 +21,7 @@
  - Swagger
  - Git/GitHub
  - Postman
+ - Maven
 
 ## 5 Referências:
   1. [git hub](https://docs.github.com/pt/enterprise-server@2.20/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
