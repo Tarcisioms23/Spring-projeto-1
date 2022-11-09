@@ -9,7 +9,7 @@
 ## 2 Link do swagger criado em ambiente local: 
  - http://localhost:8091/swagger-ui.html
 
-## 3 Foi realizada a subida no Heroku:
+## 3 Link do Swagger desse projeto no Heroku:
  - https://api-projeto-1.herokuapp.com/swagger-ui.html
 
 ## 4 Tecnologias:
