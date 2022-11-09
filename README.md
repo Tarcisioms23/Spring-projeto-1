@@ -17,5 +17,4 @@
 
 ## Versionamento git hub referencia 
   1. [git hub](https://docs.github.com/pt/enterprise-server@2.20/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
-  2. [Heroku] (https://adamatti.github.io/blog/git/2017/06/04/heroku.html)
-)
+  2. [Heroku](https://adamatti.github.io/blog/git/2017/06/04/heroku.html)
