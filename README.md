@@ -16,7 +16,7 @@
  - Java 
  - Rest 
  - Spring boot 
- - Postgree 
+ - postgreSQL
  - Heroku 
  - Swagger
  - Git/GitHub
