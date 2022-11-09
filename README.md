@@ -13,7 +13,7 @@
  - https://api-projeto-1.herokuapp.com/swagger-ui.html
 
 ## 3 Link do repositorio da Collection do Postman:
- - [Collection Produtos](https://github.com/Tarcisioms23/Spring-projeto-1/tree/master/Arquivos%20necessarios/collection)
+ - [Collection Produtos - Postman](https://github.com/Tarcisioms23/Spring-projeto-1/tree/master/Arquivos%20necessarios/collection)
 
 ## 4 Tecnologias:
  - Java 
