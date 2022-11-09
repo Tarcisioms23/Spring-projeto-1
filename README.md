@@ -6,7 +6,7 @@
 ## 1 Referência de estudo:
  - [Curso realizado no Youtube](https://www.youtube.com/watch?v=bpBRFNKg8k4&list=PL8iIphQOyG-D2FP9wkg12AavzmVRWEcnJ)
 
-## 2 Link do swagger criado em ambiente local: 
+## 2 Link do Swagger criado em ambiente local: 
  - http://localhost:8091/swagger-ui.html
 
 ## 3 Link do Swagger desse projeto no Heroku:
