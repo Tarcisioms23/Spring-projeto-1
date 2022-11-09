@@ -3,7 +3,7 @@
  * Projeto contém um CRUD de produtos para cadastrar, deletar, buscar por id e listar Produtos.
  * Branch utilizada foi a master.
 
-## 1 Referencia de estudo:
+## 1 Referência de estudo:
  - [Curso realizado no Youtube](https://www.youtube.com/watch?v=bpBRFNKg8k4&list=PL8iIphQOyG-D2FP9wkg12AavzmVRWEcnJ)
 
 ## 2 Link do swagger criado em ambiente local: 
