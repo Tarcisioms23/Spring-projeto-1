@@ -1,0 +1,364 @@
+{
+	"info": {
+		"_postman_id": "3f7fcea1-dc7e-4612-8ce6-e2b58933be3e",
+		"name": "Projeto_1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "heroku",
+			"item": [
+				{
+					"name": "produtos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api-projeto-1.herokuapp.com/api/projeto_1/produtos",
+							"protocol": "https",
+							"host": [
+								"api-projeto-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"projeto_1",
+								"produtos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "produto id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api-projeto-1.herokuapp.com/api/projeto_1/produto/1",
+							"protocol": "https",
+							"host": [
+								"api-projeto-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"projeto_1",
+								"produto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cria produto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"chico\",\r\n        \"quantidade\": 3.00,\r\n        \"valor\": 10.50\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-projeto-1.herokuapp.com/api/projeto_1/produto",
+							"protocol": "https",
+							"host": [
+								"api-projeto-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"projeto_1",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "altera produto",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"chico\",\r\n        \"quantidade\": 3.00,\r\n        \"valor\": 10.50\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-projeto-1.herokuapp.com/api/projeto_1/produto",
+							"protocol": "https",
+							"host": [
+								"api-projeto-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"projeto_1",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleta produto",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"chico\",\r\n        \"quantidade\": 3.00,\r\n        \"valor\": 10.50\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://api-projeto-1.herokuapp.com/api/projeto_1/produto",
+							"protocol": "https",
+							"host": [
+								"api-projeto-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"api",
+								"projeto_1",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL SWAGGER LOCAL:  https:localhots:8095/swagger-ui.html",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api-projeto-1.herokuapp.com/swagger-ui.html",
+							"protocol": "https",
+							"host": [
+								"api-projeto-1",
+								"herokuapp",
+								"com"
+							],
+							"path": [
+								"swagger-ui.html"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "local",
+			"item": [
+				{
+					"name": "produtos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8091/api/projeto_1/produtos",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"api",
+								"projeto_1",
+								"produtos"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "produto id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8091/api/projeto_1/produto/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"api",
+								"projeto_1",
+								"produto",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "cria produto",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n        \"nome\": \"chico\",\r\n        \"quantidade\": 3.00,\r\n        \"valor\": 10.50\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8091/api/projeto_1/produto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"api",
+								"projeto_1",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "altera produto",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nome\": \"roupa\",\r\n        \"quantidade\": 3.00,\r\n        \"valor\": 10.50,\r\n        \"id\": 6\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8091/api/projeto_1/produto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"api",
+								"projeto_1",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleta produto",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n       \"nome\": \"chico\",\r\n        \"quantidade\": 3.00,\r\n        \"valor\": 10.50,\r\n        \"id\": 5\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8091/api/projeto_1/produto",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"api",
+								"projeto_1",
+								"produto"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "URL SWAGGER LOCAL:  https:localhots:8095/swagger-ui.html",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http:localhots:8091/swagger-ui.html",
+							"host": [
+								"http:localhots"
+							],
+							"port": "8091",
+							"path": [
+								"swagger-ui.html"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
