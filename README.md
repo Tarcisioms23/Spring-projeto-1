@@ -1,5 +1,5 @@
 # Projeto_1 - Autor: Tarcisio M Silva ☕
- * Nesse projeto eu utilizo o spring boot e o banco postgree para criar APIs, Rest
+ * Nesse projeto eu utilizo o spring boot e o banco postgree para criar API Rest
  * Projeto contém um CRUD de produtos para cadastrar, deletar, buscar por id e listar Produtos.
  * Branch utilizada foi a master.
 
