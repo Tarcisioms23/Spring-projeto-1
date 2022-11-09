@@ -10,11 +10,11 @@
  - http://localhost:8091/swagger-ui.html
 
 ## 3 Foi realizada a subida no Heroku
- - Link estara aqui
-
+ - https://api-projeto-1.herokuapp.com/swagger-ui.html
 
 ## 4 Tecnologias
  - Java - REST - spring boot - postgree - Heroku - Swagger
 
 ## Versionamento git hub referencia 
- [GITHUB.COM](https://docs.github.com/pt/enterprise-server@2.20/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
+ [git hub comando](https://docs.github.com/pt/enterprise-server@2.20/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line)
+ [Adicionar um projeto existente ao GitHub usando a linha de comando](https://docs.github.com/pt/enterprise-server@2.20/github/importing-your-projects-to-github/adding-an-existing-project-to-github-using-the-command-line![image](https://user-images.githubusercontent.com/56273362/200927784-77f76c0d-8d11-4ef7-8f72-db69f1d26549.png)
