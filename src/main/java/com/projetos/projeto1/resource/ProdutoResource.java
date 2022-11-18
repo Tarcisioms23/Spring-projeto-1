@@ -59,6 +59,6 @@ public class ProdutoResource {
 	@ApiOperation(value = "Esse Metodo deleta um produto")
 	public String deleteProduto(@RequestBody Produto produto) {
 		 produtoRepository.delete(produto);
-		 return "Produto deletado com sucesso";
+		 return "Produto deletado com sucesso " + produto.getNome();
 	}
 }
