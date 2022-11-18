@@ -1,4 +1,4 @@
-package com.projetos.projeto1.resource;
+package com.projetos.projeto1.resources;
 
 import java.util.List;
 
